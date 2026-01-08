@@ -16,3 +16,54 @@
 @import url('./badges.css');
 @import url('./back-link.css');
 @import url('./footer.css');
+container {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.controls {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+#datetime-picker {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+}
+
+button[data-start] {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button[disabled] {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.timer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.field {
+  background: #ffffff;
+  padding: 15px;
+  border-radius: 8px;
+  width: 100px;
+  text-align: center;
+}
+
+.value {
+  display: block;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.label {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #777;}
